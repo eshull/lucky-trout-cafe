@@ -1,5 +1,5 @@
 body {
-    background-color: #9DB1B7;
+    background-color: #1E1E1E;
 }
 .container {
     background-color: white;
@@ -10,14 +10,19 @@ body {
     background-color: none;
 }
 nav {
-    background-color: #625A56;
+    background-color: #1E1E1E;
+    border-bottom-color: white;
+    border: 3px;
+    border-bottom-style: solid;
 }
+
+.navbar-brand {
+    font-size: 15px;
+    letter-spacing: 3px;
 }
-.image-text {
-    background-color: none;
-}
+
 h1 {
-    font-size: 88px;
+    font-size: 80px;
     color: white;
       text-align: center;
     letter-spacing: 8px;
@@ -38,30 +43,89 @@ h5 {
     transform: translate(-50%, -50%);
 }
 
-li {
-    margin-left: 25px;
+h6 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+h7 {
+    font-size: 15px;
     color: white;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
+    position: absolute;
+    margin-bottom: 25px;
+    left: 10%;
+}
+
+li {
+    margin-left: 20px;
+    color: white;
+    letter-spacing: 4px;
 }
 
 .col-md-12 {
     margin: 0px;
 }
+
 .image-text {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+     background-color: none;
 }
-@media screen and (max-width: 519px) and (min-width: 300px) {
+
+footer {
+    margin-top: 70px;
+    height: 100px;
+}
+
+.logo {
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.side {
+    margin-top: 40px;
+}
+
+.link {
+    margin-top: 40px;
+}
+
+.link:hover {
+    opacity: 0.75;
+    
+}
+
+@media screen and (max-width: 619px) and (min-width: 300px) {
     h1 {
         font-size: 20px;
         letter-spacing: 5px;
     }
+    h2{
+        font-size: 13px;
 }
-@media screen and (max-width: 999px) and (min-width: 520px) {
+    h7 {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 999px) and (min-width: 620px) {
     h1 {
-        font-size: 50px;
+        font-size: 32px;
         letter-spacing: 8px;
+    }
+    h2{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 1000px) {
+      h1 {
+        font-size: 55px;
+        letter-spacing: 8px;
+}
+    h2 {
+        font-size: 45px;
     }
 }
