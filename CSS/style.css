@@ -1,6 +1,8 @@
 body {
     background-color: #1E1E1E;
+    font-family: 'Convergence';
 }
+
 .container {
     background-color: white;
     padding-bottom: 40px;
@@ -33,6 +35,12 @@ h2 {
     text-align: center;
     letter-spacing: 5px;
 }
+
+h3 {
+    font-size: 40px;
+    margin-top: 15px;
+}
+
 h5 {
     color: white;
     font-size: 22px;
@@ -76,6 +84,10 @@ li {
      background-color: none;
 }
 
+.photo {
+    margin-top: 20px;
+}
+
 footer {
     margin-top: 70px;
     height: 100px;
@@ -86,7 +98,7 @@ footer {
     margin-top: 15px;
 }
 .side {
-    margin-top: 40px;
+    margin-top: 0px;
 }
 
 .link {
